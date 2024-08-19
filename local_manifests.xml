@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Device Tree for jasmine_sprout -->
-    <project name="LineageOS/android_device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="github" revision="lineage-20" />
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
-    <!-- Common Device Tree for sdm660 devices -->
-    <project name="LineageOS/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="lineage-20" />
+    <!-- Remotes -->
+    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
 
-    <!-- Vendor Blobs for jasmine_sprout -->
-    <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-20" />
+    <!-- Removals -->
 
-    <!-- Kernel Source for sdm660 devices -->
-    <project name="LineageOS/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="lineage-20" />
-
-    <!-- Hardware interfaces for Qualcomm -->
-    <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="lineage-20.0-caf-sdm660" />
-    <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="lineage-20.0-caf-sdm660" />
-    <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="lineage-20.0-caf-sdm660" />
-
-    <!-- Additional Dependencies -->
-    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
+    <!-- Repos -->
+    <project path="lineage-20.0-caf-sdm660" name="android_hardware_qcom_media" remote="LineageOS" />
+    <project path="lineage-20" name="android_device_xiaomi_jasmine_sprout" remote="LineageOS" />
+    <project path="lineage-20" name="android_kernel_xiaomi_sdm660" remote="LineageOS" />
+    <project path="lineage-20" name="android_device_xiaomi_sdm660-common" remote="LineageOS" />
+    <project path="lineage-20.0-caf-sdm660" name="android_hardware_qcom_audio" remote="LineageOS" />
+    <project path="lineage-20" name="android_vendor_xiaomi_sdm660" remote="LineageOS" />
+    <project path="lineage-20" name="proprietary_vendor_xiaomi" remote="TheMuppets" />
+    <project path="lineage-20.0-caf-sdm660" name="android_hardware_qcom_display" remote="LineageOS" />
 
 </manifest>
