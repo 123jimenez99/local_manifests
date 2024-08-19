@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+    <!-- Device Tree for jasmine_sprout -->
+    <project name="LineageOS/android_device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="github" revision="lineage-20" />
 
-    <!-- Remotes -->
-    <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" clone-depth="1" />
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
-    <remote name="iamimmanuelraj" fetch="https://github.com/iamimmanuelraj" clone-depth="1" />
+    <!-- Common Device Tree for sdm660 devices -->
+    <project name="LineageOS/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="lineage-20" />
 
-    <!-- Removals -->
+    <!-- Vendor Blobs for jasmine_sprout -->
+    <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-20" />
 
-    <!-- Repos -->
-    <project path="lineage-20" name="android_device_xiaomi_jasmine_sprout" remote="LineageOS" />
-    <project path="thirteen-new-defc" name="android_kernel_xiaomi_jasmine_sprout" remote="iamimmanuelraj" />
-    <project path="arrow-13.1" name="android_vendor_xiaomi_jasmine_sprout" remote="ArrowOS-Devices" />
+    <!-- Kernel Source for sdm660 devices -->
+    <project name="LineageOS/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="lineage-20" />
+
+    <!-- Hardware interfaces for Qualcomm -->
+    <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="lineage-20.0-caf-sdm660" />
+    <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="lineage-20.0-caf-sdm660" />
+    <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="lineage-20.0-caf-sdm660" />
+
+    <!-- Additional Dependencies -->
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
 
 </manifest>
