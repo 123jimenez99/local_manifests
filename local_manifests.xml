@@ -7,6 +7,7 @@
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
 
     <!-- Removals -->
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
 
     <!-- Repos -->
     <project path="lineage-20.0-caf-sdm660" name="android_hardware_qcom_media" remote="LineageOS" />
