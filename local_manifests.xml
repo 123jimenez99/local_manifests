@@ -19,9 +19,7 @@
     <project path="vendor/xiaomi/sdm660-common" name="proprietary_vendor_xiaomi_sdm660-common" remote="TheMuppets" revision="lineage-20" />
     <project path="vendor/qcom/opensource/display-commonsys" name="android_vendor_qcom_opensource_display-commonsys" remote="LineageOS" revision="lineage-20.0" />
     <project path="vendor/qcom/opensource/display-commonsys-intf" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="LineageOS" revision="lineage-20.0" />
-    <project path="vendor/qcom/opensource/opensource_usb" name="android_vendor_qcom_opensource_usb" remote="LineageOS" revision="lineage-20.0" />
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="LineageOS" revision="lineage-20.0" />
-
+    
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20" />
     <project path="hardware/qcom_display" name="android_hardware_qcom_display" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
