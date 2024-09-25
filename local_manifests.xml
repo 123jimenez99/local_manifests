@@ -21,5 +21,4 @@
     
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20" />
-    <project path="hardware/qcom_display" name="android_hardware_qcom_display" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
 </manifest>
