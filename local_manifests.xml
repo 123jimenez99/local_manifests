@@ -24,5 +24,4 @@
     
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20" />
-    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="LineageOS" revision="lineage-20.0" />
 </manifest>
