@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!--Removals-->
-    <remove-project name="android_hardware_qcom-caf_common" />
-
     <!-- Remotes -->
     <remote name="LineageOS" fetch="https://github.com/LineageOS" />
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
