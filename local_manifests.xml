@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!--Removals-->
+    <remove-project name="LineageOS/android_hardware/qcom-caf/common">
+
     <!-- Remotes -->
     <remote name="LineageOS" fetch="https://github.com/LineageOS" />
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
@@ -25,4 +28,6 @@
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20" />
     <project path="hardware/qcom_display" name="android_hardware_qcom_display" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
+    <project path="hardware/qcom_audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
+    <project path="hardware/qcom_gps" name="android_hardware_qcom_gps" remote="LineageOS" revision="lineage-20.0" />
 </manifest>
