@@ -29,7 +29,7 @@
     
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="123jimenez99" revision="lineage-20.0-caf-sdm660" />
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="LineageOS" revision="lineage-20.0" />
 </manifest>
