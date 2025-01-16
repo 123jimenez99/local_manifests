@@ -34,7 +34,8 @@
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-20.0-caf-sdm660" />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="LineageOS" revision="lineage-20.0" />
 
-    <!-- Frameworks (SurfaceFlinger) -->
+    <!-- Frameworks -->
     <project path="frameworks/native" name="android_frameworks_native" remote="123jimenez99" revision="lineage-20.0" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="123jimenez99" revision="lineage-20.0" />
 
 </manifest>
