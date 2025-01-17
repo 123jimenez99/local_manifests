@@ -13,6 +13,7 @@
     <remove-project name="LineageOS/android_hardware_qcom_gps" />
     <remove-project name="LineageOS/android_frameworks_native" />
     <remove-project name="LineageOS/android_frameworks_av" />
+    <remove-project name="LineageOS/android_frameworks_base" />
 
     <!-- Device -->
     <project path="device/xiaomi/jasmine_sprout" name="android_device_xiaomi_jasmine_sprout" remote="LineageOS" revision="lineage-20" />
@@ -38,5 +39,6 @@
     <!-- Frameworks -->
     <project path="frameworks/native" name="android_frameworks_native" remote="123jimenez99" revision="lineage-20.0" />
     <project path="frameworks/av" name="android_frameworks_av" remote="123jimenez99" revision="lineage-20.0" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="123jimenez99" revision="lineage-20.0" />
 
 </manifest>
