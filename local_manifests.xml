@@ -17,8 +17,8 @@
     <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="LineageOS" revision="lineage-20" />
 
     <!-- Vendor trees -->
-    <project path="vendor/xiaomi/jasmine_sprout" name="TheMuppets/proprietary_vendor_xiaomi_jasmine_sprout" remote="TheMuppets" revision="lineage-20" />
+    <project path="vendor/xiaomi/jasmine_sprout" name="proprietary_vendor_xiaomi_jasmine_sprout" remote="TheMuppets" revision="lineage-20" />
     <project path="vendor/xiaomi/wayne" name="proprietary_vendor_xiaomi_wayne" remote="TheMuppets" revision="lineage-20" />
     <project path="vendor/xiaomi/wayne-common"  name="proprietary_vendor_xiaomi_wayne-common" remote="TheMuppets" revision="lineage-20" />
-    <project path="vendor/xiaomi/sdm660-common" name="TheMuppets/proprietary_vendor_xiaomi_sdm660-common" remote="TheMuppets" revision="lineage-20" />
+    <project path="vendor/xiaomi/sdm660-common" name="proprietary_vendor_xiaomi_sdm660-common" remote="TheMuppets" revision="lineage-20" />
 </manifest>
